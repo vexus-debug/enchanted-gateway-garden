@@ -161,6 +161,8 @@ import AdminHealthMonitoring from "./pages/admin/AdminHealthMonitoring";
 import AdminWhiteLabel from "./pages/admin/AdminWhiteLabel";
 import AdminLiveSessions from "./pages/admin/AdminLiveSessions";
 import AdminArticles from "./pages/admin/AdminArticles";
+import AdminVisitors from "./pages/admin/AdminVisitors";
+import { VisitorTracker } from "@/site/visitorTracker";
 import { SessionTracker } from "@/hooks/useSessionTracker";
 import { PwaRouteGate } from "@/components/PwaRouteGate";
 import { Seo } from "@/components/Seo";
@@ -219,6 +221,7 @@ const App = () => (
           <PwaRouteGate />
           <InstallPrompt />
           <SessionTracker />
+          <VisitorTracker />
           <SiteScrollToTop />
           <Routes>
             {/* Public marketing site */}
@@ -274,6 +277,7 @@ const App = () => (
               <Route path="admin/subscriptions" element={<AdminRoute><AdminSubscriptions /></AdminRoute>} />
               <Route path="admin/revenue" element={<AdminRoute><AdminRevenue /></AdminRoute>} />
               <Route path="admin/analytics" element={<AdminRoute><AdminAnalytics /></AdminRoute>} />
+              <Route path="admin/visitors" element={<AdminRoute><AdminVisitors /></AdminRoute>} />
               <Route path="admin/onboarding" element={<AdminRoute><AdminOnboardingFunnel /></AdminRoute>} />
               <Route path="admin/announcements" element={<AdminRoute><AdminAnnouncements /></AdminRoute>} />
               <Route path="admin/support" element={<AdminRoute><AdminSupportTickets /></AdminRoute>} />

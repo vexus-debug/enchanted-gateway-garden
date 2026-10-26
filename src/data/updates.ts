@@ -13,6 +13,15 @@ export interface UpdateEntry {
 
 export const updates: UpdateEntry[] = [
   {
+    version: "v1.9.0",
+    date: "October 26, 2026",
+    title: "Website visitor analytics",
+    kind: "feature",
+    items: [
+      { kind: "feature", text: "Super admins can now see website visits — traffic sources, locations, devices and each visitor's page journey." },
+    ],
+  },
+  {
     version: "v1.8.3",
     date: "October 25, 2026",
     title: "Tidier footer on phones",
