@@ -1,6 +1,7 @@
 import Layout from "@/site/components/Layout";
 import PageHero from "@/site/components/PageHero";
 import { CheckCircle2 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const WHATSAPP = "https://wa.me/2349017758165?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus%20dental%20pricing";
 
@@ -30,6 +31,7 @@ const DentalPricing = () => (
           </li>
         ))}
       </ul>
+      <Link to="/industries/dental-clinics/how-cases-work" className="font-semibold text-primary underline md:col-span-2">How does ₦1,000 per case work? →</Link>
     </div>
   </Layout>
 );

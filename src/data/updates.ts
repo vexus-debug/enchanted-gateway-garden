@@ -13,6 +13,16 @@ export interface UpdateEntry {
 
 export const updates: UpdateEntry[] = [
   {
+    version: "v1.9.2",
+    date: "October 26, 2026",
+    title: "Per-case pricing explained",
+    kind: "improvement",
+    items: [
+      { kind: "fix", text: "Dental clinic page now shows the new setup fee + ₦1,000 per case pricing instead of old plans." },
+      { kind: "feature", text: "New page explaining how ₦1,000 per patient case works, with examples." },
+    ],
+  },
+  {
     version: "v1.9.1",
     date: "October 26, 2026",
     title: "Dental clinic pricing page",
