@@ -144,7 +144,7 @@ const DentalClinics = () => {
         title="You didn't spend years learning to heal teeth so you could chase folders all evening."
         description="You know the feeling — a full waiting room, a patient in the chair who needs all of you, and a stack of files daring you to fall behind. We built Clinexus sitting with dental clinics like yours, listening to the days you actually have. Everything here exists because someone like you asked for it, not because a software company guessed."
         primaryCta={{ label: "Talk to us on WhatsApp", href: WHATSAPP, external: true }}
-        secondaryCta={{ label: "See the full feature list", href: "/industries/dental-clinics/features" }}
+        secondaryCta={{ label: "See pricing", href: "/industries/dental-clinics/pricing" }}
         points={[
           { value: "3–4 hrs", label: "Admin time given back each day" },
           { value: "40%", label: "Fewer no-shows with automatic reminders" },
