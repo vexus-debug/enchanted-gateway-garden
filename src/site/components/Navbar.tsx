@@ -24,13 +24,6 @@ const mobileGroups = [
     ],
   },
   {
-    label: "Features",
-    items: [
-      { label: "Eye clinic features", to: "/industries/eye-clinics/features" },
-      { label: "Dental clinic features", to: "/industries/dental-clinics/features" },
-    ],
-  },
-  {
     label: "Resources",
     items: [
       { label: "Articles", to: "/articles" },
@@ -54,8 +47,7 @@ const megaMenus = [
     items: [
       { label: "Eye clinics", desc: "Optometry, refraction and optical sales in one place.", to: "/industries/eye-clinics", icon: Eye },
       { label: "Dental clinics", desc: "Charting, treatment plans and chair scheduling.", to: "/industries/dental-clinics", icon: Stethoscope },
-      { label: "Eye clinic features", desc: "Everything included for eye care teams.", to: "/industries/eye-clinics/features", icon: LayoutGrid },
-      { label: "Dental clinic features", desc: "Everything included for dental teams.", to: "/industries/dental-clinics/features", icon: Sparkles },
+      { label: "Dental clinic pricing", desc: "Setup fee plus ₦1,000 per patient case.", to: "/industries/dental-clinics/pricing", icon: Sparkles },
     ],
   },
   {

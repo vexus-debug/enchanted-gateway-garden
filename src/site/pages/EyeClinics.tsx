@@ -91,7 +91,6 @@ const EyeClinics = () => {
         title="You fix eyes all day. The paperwork shouldn't be the thing wearing you down."
         description="You chose this work because a patient's sight depends on you. So the exams, refractions, diagnostics, lens dispensing, surgeries and everyday admin shouldn't be the part that drains you. Clinexus holds it all in one simple place, so nothing slips past you."
         primaryCta={{ label: "Talk to us on WhatsApp", href: WHATSAPP, external: true }}
-        secondaryCta={{ label: "See the full feature list", href: "/industries/eye-clinics/features" }}
         points={[
           { value: "3–4 hrs", label: "Admin time given back each day" },
           { value: "40%", label: "Fewer no-shows with automatic reminders" },
