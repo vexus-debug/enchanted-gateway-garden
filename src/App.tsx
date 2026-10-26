@@ -22,6 +22,7 @@ import SiteEyeClinics from "./site/pages/EyeClinics";
 import SiteEyeClinicFeatures from "./site/pages/EyeClinicFeatures";
 import SiteDentalClinics from "./site/pages/DentalClinics";
 import SiteDentalPricing from "./site/pages/DentalPricing";
+import SiteDentalCases from "./site/pages/DentalCasesExplained";
 import SiteDentalClinicFeatures from "./site/pages/DentalClinicFeatures";
 import SiteAbout from "./site/pages/About";
 import SiteContact from "./site/pages/Contact";
@@ -233,6 +234,7 @@ const App = () => (
             <Route path="/industries/eye-clinics/features" element={<SiteEyeClinicFeatures />} />
             <Route path="/industries/dental-clinics" element={<SiteDentalClinics />} />
             <Route path="/industries/dental-clinics/pricing" element={<SiteDentalPricing />} />
+            <Route path="/industries/dental-clinics/how-cases-work" element={<SiteDentalCases />} />
             <Route path="/industries/dental-clinics/features" element={<SiteDentalClinicFeatures />} />
             <Route path="/about" element={<SiteAbout />} />
             <Route path="/updates" element={<SiteUpdates />} />
